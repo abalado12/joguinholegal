@@ -7,9 +7,7 @@ const jump = ( ) => {
     setTimeout (() => {
        
         mario.classList.remove('jump');
- const currentMarioPosition = parseFloat(getComputedStyle(mario).bottom);
-        const jumpHeight = 40; // Ajuste conforme necessário
-        mario.style.bottom = (currentMarioPosition + jumpHeight) + 'px';
+
     }, 500);
 
 }
