@@ -1,6 +1,6 @@
-const mario = document.querySelector('.mario');
+const transferir = document.querySelector('.transferir');
 const pipe = document.querySelector('.pipe');
-const figueirense = document.querySelector ('.figueirense');
+
 
 const jump = ( ) => {
  mario.classList.add('jump');
